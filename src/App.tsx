@@ -1,8 +1,10 @@
-function App() {
+import { useCookies } from "react-cookie";
+import AuthRoutes from "./routes/AuthRoutes";
+import Layout from "./features/Layout";
 
-  return (
-    <></>
-  )
+function App() {
+  const [cookie] = useCookies(["accessToken"]);
+  return <>{cookie.accessToken ? <Layout /> : <AuthRoutes />}</>;
 }
 
-export default App
+export default App;
