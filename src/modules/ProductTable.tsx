@@ -14,7 +14,7 @@ const ProductTable = () => {
         <div style={{width: `${100 / 7 - 7}%`}} className="flex justify-start">Действия</div>
       </div>
       <div className="space-y-[8px]">
-        <div className="flex w-full py-[17px] px-[50px] bg-white rounded-[30px] text-[20px] justify-between max-h-[69px] ">
+        {/* <div className="flex w-full py-[17px] px-[50px] bg-white rounded-[30px] text-[20px] justify-between max-h-[69px] ">
           <div style={{width: `${100 / 7 + 1}%`}}>
             <img src={a} alt="" />
           </div>
@@ -29,7 +29,7 @@ const ProductTable = () => {
           <div style={{width: `${100 / 7 - 2}%`}} className="flex items-center justify-start">2,7</div>
           <div style={{width: `${100 / 7}%`}} className="flex items-center justify-start">60</div>
           <div style={{width: `${100 / 7 - 7}%`}} className="flex items-center justify-start gap-[18px]"><EditIcon /> <DeleteIcon /></div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
